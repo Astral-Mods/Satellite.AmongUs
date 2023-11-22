@@ -1,0 +1,45 @@
+{
+    "version": 1,
+    "sources": [],
+    "blacklist": {
+        "urls": [],
+        "repositories": []
+    },
+    "packages": [
+        {
+            "repository": {
+                "owner": "DaemonBeast",
+                "repo": "Mitochondria"
+            },
+            "versions": [
+                {
+                    "release_tag": "v0.5.0-dev",
+                    "asset_name": "Mitochondria.Core.zip",
+                    "name": "Mitochondria.Core",
+                    "package_type": "mod",
+                    "compatible_game_versions": [
+                        "2023.10.24"
+                    ]
+                },
+                {
+                    "release_tag": "v0.5.0-dev",
+                    "asset_name": "Mitochondria.ExtensionPack.dll",
+                    "name": "Mitochondria.ExtensionPack",
+                    "package_type": "mod",
+                    "compatible_game_versions": [
+                        "2023.10.24"
+                    ]
+                },
+                {
+                    "release_tag": "v0.5.0-dev",
+                    "asset_name": "Mitochondria.Options.Settings.dll",
+                    "name": "Mitochondria.Options.Settings",
+                    "package_type": "mod",
+                    "compatible_game_versions": [
+                        "2023.10.24"
+                    ]
+                }
+            ]
+        }
+    ]
+}
