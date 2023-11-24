@@ -1,54 +1,46 @@
 {
     "version": 1,
-    "sources": [],
+    "source_urls": [],
     "blacklist": {
         "urls": [],
-        "repositories": []
+        "package_names": []
     },
-    "repositories": [
+    "packages": [
         {
-            "repository": {
-                "owner": "DaemonBeast",
-                "repo": "Mitochondria"
-            },
-            "packages": [
+            "name": "Mitochondria.Core",
+            "package_type": "mod",
+            "versions": [
                 {
-                    "name": "Mitochondria.Core",
-                    "package_type": "mod",
-                    "versions": [
-                        {
-                            "release_tag": "v0.5.0-dev",
-                            "asset_name": "Mitochondria.Core.zip",
-                            "compatible_game_versions": [
-                                "2023.10.24"
-                            ]
-                        }
+                    "version": "0.5.0-dev",
+                    "https_download_url": "https://github.com/DaemonBeast/Mitochondria/releases/download/v0.5.0-dev/Mitochondria.Core.zip",
+                    "compatible_game_versions": [
+                        "2023.10.24"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "name": "Mitochondria.ExtensionPack",
+            "package_type": "mod",
+            "versions": [
                 {
-                    "name": "Mitochondria.ExtensionPack",
-                    "package_type": "mod",
-                    "versions": [
-                        {
-                            "release_tag": "v0.5.0-dev",
-                            "asset_name": "Mitochondria.ExtensionPack.dll",
-                            "compatible_game_versions": [
-                                "2023.10.24"
-                            ]
-                        }
+                    "version": "0.5.0-dev",
+                    "https_download_url": "https://github.com/DaemonBeast/Mitochondria/releases/download/v0.5.0-dev/Mitochondria.ExtensionPack.dll",
+                    "compatible_game_versions": [
+                        "2023.10.24"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "name": "Mitochondria.Options.Settings",
+            "package_type": "mod",
+            "versions": [
                 {
-                    "name": "Mitochondria.Options.Settings",
-                    "package_type": "mod",
-                    "versions": [
-                        {
-                            "release_tag": "v0.5.0-dev",
-                            "asset_name": "Mitochondria.Options.Settings.dll",
-                            "compatible_game_versions": [
-                                "2023.10.24"
-                            ]
-                        }
+                    "version": "0.5.0-dev",
+                    "https_download_url": "https://github.com/DaemonBeast/Mitochondria/releases/download/v0.5.0-dev/Mitochondria.Options.Settings.dll",
+                    "compatible_game_versions": [
+                        "2023.10.24"
                     ]
                 }
             ]
